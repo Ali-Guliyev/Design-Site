@@ -1,0 +1,115 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+.intro-container {
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+.intro-container ul {
+  margin: 50px 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.intro-container ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 50px;
+  -webkit-box-align: space-around;
+      -ms-flex-align: space-around;
+          align-items: space-around;
+}
+
+.intro-container ul li .li__name {
+  font-size: 9px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.intro-container ul li .colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.intro-container ul li .colors p {
+  font-size: 14px;
+}
+
+.intro-container ul li .colors .color {
+  margin-left: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.intro-container ul li .colors .color .color-circle {
+  width: 40px;
+  height: 40px;
+  background-color: purple;
+  border: none;
+  border-radius: 50%;
+  margin-right: 12px;
+}
+
+.intro-container ul li .colors .color .p-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.intro-container ul li .colors .color .p-box p {
+  margin: 0;
+}
+
+.intro-container ul li:first-child {
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+}
+
+.intro-container ul li:last-child .p-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.introText {
+  font-size: 70px;
+  font-weight: bolder;
+  line-height: 65px;
+}
+
+.background-image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: -1;
+  max-height: 100vh;
+}
+/*# sourceMappingURL=main.css.map */
